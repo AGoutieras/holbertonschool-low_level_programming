@@ -156,27 +156,27 @@
  * All your code should be in the $${\color{red}main}$$ function
  * You can only use $${\color{red}putchar}$$ twice in your code
    <details>
-     <summary>Show answer</summary>
+    <summary>Show answer</summary>
 
-  ```
-  #include <stdio.h>
-
-  int main(void)
-  {
-  	char alphabet;
-  
-  	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
-  	{
-  		if (alphabet != 'e' && alphabet != 'q')
-  		{
-  			putchar(alphabet);
-  		}
-  	}
-  	putchar('\n');
-  
-  	return (0);
-  }
-  ```
+   ```
+   #include <stdio.h>
+ 
+   int main(void)
+   {
+   	char alphabet;
+   
+   	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+   	{
+   		if (alphabet != 'e' && alphabet != 'q')
+   		{
+   			putchar(alphabet);
+   		}
+   	}
+   	putchar('\n');
+   
+   	return (0);
+   }
+   ```
   </details>
   
 * [Task 5](./5-print_numbers.c): Write a program that prints all single digit numbers of base 10 starting from $${\color{red}0}$$, followed by a new line.
