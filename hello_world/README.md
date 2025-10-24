@@ -4,39 +4,59 @@
 
   * The C file name will be saved in the variable $${\color{red}\\$CFILE}$$
   * The output should be saved in the file $${\color{red}c}$$
+   <details>
+    <summary>Show answer</summary>
+
   ```
   gcc -E $CFILE -o c
   ```
-
+  </details>
+  
 * [Task 1](./1-compiler): Write a script that compiles a C file but does not link.
 
   * The C file name will be saved in the variable $${\color{red}\\$CFILE}$$
   * The output file should be named the same as the C file, but with the extension .o instead of $${\color{red}.c}$$.
     * Example: if the C file is $${\color{red}main.c}$$, the output file should be $${\color{red}main.o}$$
+   <details>
+    <summary>Show answer</summary>
+
   ```
   gcc -c $CFILE
   ```
+  </details>
+  
 * [Task 2](./2-assembler): Write a script that generates the assembly code of a C code and save it in an output file.
 
   * The C file name will be saved in the variable $${\color{red}\\$CFILE}$$
   * The output file should be named the same as the C file, but with the extension $${\color{red}.s}$$ instead of $${\color{red}.c}$$.
     * Example: if the C file is $${\color{red}main.c}$$, the output file should be $${\color{red}main.s}$$
+   <details>
+    <summary>Show answer</summary>
+
   ```
   gcc -S $CFILE
   ```
+  </details>
   
 * [Task 3](./3-name): Write a script that compiles a C file and creates an executable named $${\color{red}cisfun}$$.
 
   * The C file name will be saved in the variable $${\color{red}\\$CFILE}$$
+   <details>
+    <summary>Show answer</summary>
+
   ```
   gcc $CFILE -o cisfun
   ```
+  </details>
   
 * [Task 4](./4-puts.c): Write a C program that prints exactly $${\color{red}"Programming \space is \space like \space building \space a \space multilingual \space puzzle}$$, followed by a new line.
 
   * Use the function $${\color{red}puts}$$
   * You are not allowed to use $${\color{red}printf}$$
   * Your program should end with the value $${\color{red}0}$$
+   <details>
+    <summary>Show answer</summary>
+
   ```
   #include <stdio.h>
   
@@ -47,6 +67,7 @@
 	  return (0);
   }
   ```
+  </details>
   
 * [Task 5](./5-printf.c): Write a C program that prints exactly $${\color{red}with \space proper \space grammar, \space but \space the \space outcome \space is \space a \space piece \space of \space art,}$$, followed by a new line.
 
@@ -54,6 +75,9 @@
   * You are not allowed to use the function $${\color{red}puts}$$
   * Your program should return $${\color{red}0}$$
   * Your program should compile without warning when using the $${\color{red}-Wall \space gcc}$$ option
+   <details>
+    <summary>Show answer</summary>
+
   ```
   #include <stdio.h>
 
@@ -64,6 +88,7 @@
   	return (0);
   }
   ```
+  </details>
   
 * [Task 6](./6-size.c): Write a C program that prints the size of various types on the computer it is compiled and run on.
 
@@ -71,6 +96,9 @@
   * Warnings are allowed
   * Your program should return $${\color{red}0}$$
   * If you are using a linux on Vagrant you might have to install the package $${\color{red}libc6-dev-i386}$$ to test the $${\color{red}-m32 \space gcc}$$  option (normally you dont need to do anything on your sandbox).
+	<details>
+    	<summary>Show answer</summary>
+
   ```
   #include <stdio.h>
 
@@ -85,6 +113,7 @@
   	return (0);
   }
   ```
+  </details>
 
 ### By Anthony Goutieras
   Weekly project from 10/10/25 to 19/10/25 for Holberton School Bordeaux
