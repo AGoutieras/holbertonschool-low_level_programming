@@ -12,6 +12,9 @@
       * if the number is 0: $${\color{red}is \space zero}$$
       * if the number is less than 0: $${\color{red}is \space negative}$$
     * followed by a new line
+  <details>
+    <summary>Show answer</summary>
+
   ```
   #include <stdio.h>
   #include <stdlib.h>
@@ -39,6 +42,7 @@
   	return (0);
   }
   ```
+  </details>
 
 * [Task 1](./1-last_digit.c): This program will assign a random number to the variable $${\color{red}n}$$ each time it is executed. Complete the source code in order to print the last digit of the number stored in the variable $${\color{red}n}$$.
 
@@ -53,6 +57,9 @@
       * if the last digit of $${\color{red}n}$$ is 0: the string $${\color{red}and \space is \space 0}$$
       * if the last digit of $${\color{red}n}$$ is less than 6 and not 0: the string $${\color{red}and \space is \space less \space than \space 6 \space and \space not \space 0}$$
     * followed by a new line
+  <details>
+    <summary>Show answer</summary>
+
   ```
   #include <stdio.h>
   #include <stdlib.h>
@@ -82,11 +89,16 @@
   	return (0);
   }
   ```
+  </details>
+  
 * [Task 2](./2-print_alphabet.c): Write a program that prints the alphabet in lowercase, followed by a new line.
 
   * You can only use the $${\color{red}putcha}$$r function (every other function ($${\color{red}printf}$$, $${\color{red}puts}$$, etc…) is forbidden)
   * All your code should be in the $${\color{red}main}$$ function
   * You can only use $${\color{red}putchar}$$ twice in your code
+  <details>
+    <summary>Show answer</summary>
+
   ```
   #include <stdio.h>
   
@@ -103,12 +115,16 @@
   	return (0);
   }
   ```
+  </details>
   
 * [Task 3](./3-print_alphabets.c): Write a program that prints the alphabet in lowercase, and then in uppercase, followed by a new line.
 
   * You can only use the $${\color{red}putchar}$$ function (every other function ($${\color{red}printf}$$, $${\color{red}puts}$$, etc…) is forbidden)
   * All your code should be in the $${\color{red}main}$$ function
   * You can only use $${\color{red}putchar}$$ three times in your code
+  <details>
+    <summary>Show answer</summary>
+
   ```
   #include <stdio.h>
 
@@ -131,13 +147,17 @@
   	return (0);
   }
   ```
+  </details>
   
 * [Task 4](./4-print_alphabt.c): Write a program that prints the alphabet in lowercase, followed by a new line.
 
-Print all the letters except $${\color{red}q}$$ and $${\color{red}e}$$
-You can only use the $${\color{red}putchar}$$ function (every other function ($${\color{red}printf}$$, $${\color{red}puts}$$, etc…) is forbidden)
-All your code should be in the $${\color{red}main}$$ function
-You can only use $${\color{red}putchar}$$ twice in your code
+ * Print all the letters except $${\color{red}q}$$ and $${\color{red}e}$$
+ * You can only use the $${\color{red}putchar}$$ function (every other function ($${\color{red}printf}$$, $${\color{red}puts}$$, etc…) is forbidden)
+ * All your code should be in the $${\color{red}main}$$ function
+ * You can only use $${\color{red}putchar}$$ twice in your code
+   <details>
+     <summary>Show answer</summary>
+
   ```
   #include <stdio.h>
 
@@ -157,10 +177,14 @@ You can only use $${\color{red}putchar}$$ twice in your code
   	return (0);
   }
   ```
+  </details>
   
 * [Task 5](./5-print_numbers.c): Write a program that prints all single digit numbers of base 10 starting from $${\color{red}0}$$, followed by a new line.
 
   * All your code should be in the $${\color{red}main}$$ function
+  <details>
+    <summary>Show answer</summary>
+
   ```
   #include <stdio.h>
 
@@ -177,6 +201,7 @@ You can only use $${\color{red}putchar}$$ twice in your code
   	return (0);
   }
   ```
+  </details>
   
 * [Task 6](./6-print_numberz.c): Write a program that prints all single digit numbers of base 10 starting from $${\color{red}0}$$, followed by a new line.
 
@@ -184,6 +209,9 @@ You can only use $${\color{red}putchar}$$ twice in your code
   * You can only use the $${\color{red}putchar}$$ function (every other function ($${\color{red}printf}$$, $${\color{red}puts}$$, etc…) is forbidden)
   * You can only use $${\color{red}putchar}$$ twice in your code
   * All your code should be in the $${\color{red}main}$$ function
+  <details>
+    <summary>Show answer</summary>
+
   ```
   #include <stdio.h>
 
@@ -200,12 +228,16 @@ You can only use $${\color{red}putchar}$$ twice in your code
   	return (0);
   }
   ```
+  </details>
   
 * [Task 7](./7-print_tebahpla.c): Write a program that prints the lowercase alphabet in reverse, followed by a new line.
 
   * You can only use the $${\color{red}putchar}$$ function (every other function ($${\color{red}printf}$$, $${\color{red}puts}$$, etc…) is forbidden)
   * All your code should be in the $${\color{red}main}$$ function
   * You can only use $${\color{red}putchar}$$ twice in your code
+  <details>
+    <summary>Show answer</summary>
+
   ```
   #include <stdio.h>
 
@@ -222,12 +254,16 @@ You can only use $${\color{red}putchar}$$ twice in your code
   	return (0);
   }
   ```
+  </details>
   
 * [Task 8](./8-print_base16.c): Write a program that prints all the numbers of base 16 in lowercase, followed by a new line.
 
   * You can only use the $${\color{red}putchar}$$ function (every other function ($${\color{red}printf}$$, $${\color{red}puts}$$, etc…) is forbidden)
   * All your code should be in the *main* function
   * You can only use *putchar* three times in your code
+  <details>
+    <summary>Show answer</summary>
+
   ```
   #include <stdio.h>
 
@@ -248,6 +284,7 @@ You can only use $${\color{red}putchar}$$ twice in your code
   	return (0);
   }
   ```
+  </details>
   
 * [Task 9](./9-print_comb.c): Write a program that prints all possible combinations of single-digit numbers.
 
@@ -257,6 +294,9 @@ You can only use $${\color{red}putchar}$$ twice in your code
   * All your code should be in the $${\color{red}main}$$ function
   * You can only use $${\color{red}putchar}$$ four times maximum in your code
   * You are not allowed to use any variable of type $${\color{red}char}$$
+  <details>
+    <summary>Show answer</summary>
+
   ```
   #include <stdio.h>
 
@@ -279,6 +319,7 @@ You can only use $${\color{red}putchar}$$ twice in your code
   	return (0);
   }
   ```
+  </details>
   
 ### By Anthony Goutieras
   Weekly project from 10/10/25 to 19/10/25 for Holberton School Bordeaux
