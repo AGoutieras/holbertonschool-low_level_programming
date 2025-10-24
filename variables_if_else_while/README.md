@@ -93,7 +93,7 @@
   
 * [Task 2](./2-print_alphabet.c): Write a program that prints the alphabet in lowercase, followed by a new line.
 
-  * You can only use the $${\color{red}putcha}$$r function (every other function ($${\color{red}printf}$$, $${\color{red}puts}$$, etc…) is forbidden)
+  * You can only use the $${\color{red}putchar}$$ function (every other function ($${\color{red}printf}$$, $${\color{red}puts}$$, etc…) is forbidden)
   * All your code should be in the $${\color{red}main}$$ function
   * You can only use $${\color{red}putchar}$$ twice in your code
   <details>
