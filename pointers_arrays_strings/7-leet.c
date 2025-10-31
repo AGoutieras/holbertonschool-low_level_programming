@@ -9,20 +9,23 @@
 char *leet(char *str)
 {
 	int index = 0;
+	char *letters = "aAeEoOtTlL";
+    char *numbers = "4433007711";
 
     while (str[index] != '\0')
     {
-        if (str[index] == 'a' || str[index] == 'A')
-            str[index] = '4';
-        else if (str[index] == 'e' || str[index] == 'E')
-            str[index] = '3';
-        else if (str[index] == 'o' || str[index] == 'O')
-            str[index] = '0';
-        else if (str[index] == 't' || str[index] == 'T')
-            str[index] = '7';
-        else if (str[index] == 'l' || str[index] == 'L')
-            str[index] = '1';
+        int j = 0;
 
+        {
+        for (j = 0; letters[j]; j++)
+        {
+            if (str[index] == letters[j])
+            {
+                 str[index] = numbers[j];
+                break;
+            }
+        }
+        }
         index++;
     }
 
