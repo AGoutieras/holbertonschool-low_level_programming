@@ -4,7 +4,7 @@
  * str_concat - concatenates two strings.
  * @s1: first half of string
  * @s2: second half of string
- * Return: concated string, NULL if malloc fails.
+ * Return: concatenated string, NULL if malloc fails.
  */
 
 char *str_concat(char *s1, char *s2)
