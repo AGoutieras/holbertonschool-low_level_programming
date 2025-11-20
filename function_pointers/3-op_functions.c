@@ -50,8 +50,8 @@ int op_div(int a, int b)
 
 /**
  * op_mod - modulates two integers
- * @a: first integer 
- * @b: second integer 
+ * @a: first integer
+ * @b: second integer
  * Return: result of a % b
  */
 
