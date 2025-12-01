@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * add_node - Adds a new node at the beginning of a list.
+ * add_node_end - Adds a new node at the end of a list.
  * @head: First node of the list.
  * @str: String to be added.
  *
@@ -32,18 +32,18 @@ list_t *add_node_end(list_t **head, const char *str)
 
 	new_node->str = copy;
 	new_node->next = NULL;
-	
-    if (*head == NULL)
-        *head = new_node;
-    else
-    {
-        last = *head;
 
-        while (last->next != NULL)
-            last = last->next;
-        
-        last->next = new_node;
-    }
+	if (*head == NULL)
+		*head = new_node;
+	else
+	{
+		last = *head;
+
+		while (last->next != NULL)
+			last = last->next;
+
+		last->next = new_node;
+	}
 
 	return (new_node);
 }
