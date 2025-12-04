@@ -2,7 +2,7 @@
 
 /**
  * create_file - creates a file.
- * @filename: file to read and print
+ * @filename: file to create
  * @text_content: NULL terminated string to write to the file
  *
  * Return: 1 on success, -1 on failure
