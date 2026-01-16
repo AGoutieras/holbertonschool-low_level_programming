@@ -266,4 +266,4 @@ int main(int argc, char **argv)
 ---
 
   ### By Anthony Goutieras
-  Weekly project from 12/01/26 to 16/01/26 for Holberton School Bordeaux
+  Weekly project from 03/11/25 to 07/11/25 for Holberton School Bordeaux
