@@ -13,7 +13,7 @@ Write a program that prints its name, followed by a new line.
 <details>
 <summary>Show answer</summary>
 
-```bash
+```C
 #include "main.h"
 
 /**
@@ -54,7 +54,7 @@ Write a program that prints the number of arguments passed into it.
 <details>
 <summary>Show answer</summary>
 
-```bash
+```C
 
 ```
 </details>
@@ -71,7 +71,7 @@ Write a program that prints all arguments it receives.
 <details>
 <summary>Show answer</summary>
 
-```bash
+```C
 #include "main.h"
 
 /**
@@ -108,7 +108,7 @@ Write a program that multiplies two numbers.
 <details>
 <summary>Show answer</summary>
 
-```bash
+```C
 #include "main.h"
 
 /**
@@ -154,7 +154,7 @@ Write a program that adds positive numbers.
 <details>
 <summary>Show answer</summary>
 
-```bash
+```C
 #include "main.h"
 
 /**
@@ -211,7 +211,7 @@ Write a program that prints the minimum number of coins to make change for an am
 <details>
 <summary>Show answer</summary>
 
-```bash
+```C
 #include "main.h"
 
 /**
