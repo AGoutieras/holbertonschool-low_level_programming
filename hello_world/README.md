@@ -13,7 +13,7 @@ Write a script that runs a C file through the preprocessor and save the result i
 <details>
 <summary>Show answer</summary>
 
-```bash
+```C
 #!/bin/bash
 gcc -E $CFILE -o c
 ```
@@ -32,7 +32,7 @@ Write a script that compiles a C file but does not link.
 <details>
 <summary>Show answer</summary>
 
-```bash
+```C
 #!/bin/bash
 gcc -c $CFILE
 ```
@@ -51,7 +51,7 @@ Write a script that generates the assembly code of a C code and save it in an ou
 <details>
 <summary>Show answer</summary>
 
-```bash
+```C
 #!/bin/bash
 gcc -S $CFILE
 ```
@@ -68,7 +68,7 @@ Write a script that compiles a C file and creates an executable named ```cisfun`
 <details>
 <summary>Show answer</summary>
 
-```bash
+```C
 #!/bin/bash
 gcc $CFILE -o cisfun
 ```
@@ -87,7 +87,7 @@ Write a C program that prints exactly ```"Programming is like building a multili
 <details>
 <summary>Show answer</summary>
 
-```bash
+```C
 #include <stdio.h>
 
 /**
@@ -120,7 +120,7 @@ Write a C program that prints exactly ```with proper grammar, but the outcome is
 <details>
 <summary>Show answer</summary>
 
-```bash
+```C
 #include <stdio.h>
 
 /**
@@ -153,7 +153,7 @@ Write a C program that prints the size of various types on the computer it is co
 <details>
 <summary>Show answer</summary>
 
-```bash
+```C
 #include <stdio.h>
 
 /**
