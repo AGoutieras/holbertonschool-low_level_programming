@@ -14,7 +14,7 @@ Write a function that creates an array of chars, and initializes it with a speci
 <details>
 <summary>Show answer</summary>
 
-```bash
+```C
 #include "main.h"
 
 /**
@@ -62,7 +62,7 @@ FYI: The standard library provides a similar function: ```strdup```. Run ```man 
 <details>
 <summary>Show answer</summary>
 
-```bash
+```C
 #include "main.h"
 
 /**
@@ -111,7 +111,7 @@ Write a function that concatenates two strings.
 <details>
 <summary>Show answer</summary>
 
-```bash
+```C
 #include "main.h"
 
 /**
@@ -165,7 +165,7 @@ Write a function that returns a pointer to a 2 dimensional array of integers.
 <details>
 <summary>Show answer</summary>
 
-```bash
+```C
 #include "main.h"
 
 /**
@@ -225,7 +225,7 @@ Write a function that frees a 2 dimensional grid previously created by your ```a
 <details>
 <summary>Show answer</summary>
 
-```bash
+```C
 #include "main.h"
 
 /**
