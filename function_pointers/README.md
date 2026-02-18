@@ -12,7 +12,7 @@ Write a function that prints a name.
 <details>
 <summary>Show answer</summary>
 
-```bash
+```C
 #include "function_pointers.h"
 
 /**
@@ -42,7 +42,7 @@ Write a function that executes a function given as a parameter on each element o
 <details>
 <summary>Show answer</summary>
 
-```bash
+```C
 #include "function_pointers.h"
 
 /**
@@ -84,7 +84,7 @@ Write a function that searches for an integer.
 <details>
 <summary>Show answer</summary>
 
-```bash
+```C
 #include "function_pointers.h"
 
 /**
@@ -142,7 +142,7 @@ This file should contain all the function prototypes and data structures used by
 
 You can use this structure:
 
-```bash
+```C
 /**
  * struct op - Struct op
  *
@@ -202,7 +202,7 @@ This file should contain the 5 following functions (not more):
 <details>
 <summary>Show answer</summary>
 
-```bash
+```C
 	#include "3-calc.h"
 
 /**
@@ -283,7 +283,7 @@ This file should contain the function that selects the correct function to perfo
 * If ```s``` does not match any of the 5 expected operators (```+```, ```-```, ```*```, ```/```, ```%```), return ```NULL```
 * You are only allowed to declare these two variables in this function:
 
-```bash
+```C
     op_t ops[] = {
         {"+", op_add},
         {"-", op_sub},
@@ -298,7 +298,7 @@ This file should contain the function that selects the correct function to perfo
 <details>
 <summary>Show answer</summary>
 
-```bash
+```C
 	#include "3-calc.h"
 
 /**
@@ -346,7 +346,7 @@ This file should contain your ```main``` function only.
 <details>
 <summary>Show answer</summary>
 
-```bash
+```C
 	#include "3-calc.h"
 
 /**
