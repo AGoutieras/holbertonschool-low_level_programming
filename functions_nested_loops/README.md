@@ -12,7 +12,7 @@ Write a program that prints ```_putchar```, followed by a new line.
 <details>
 <summary>Show answer</summary>
 
-```bash
+```C
 #include "main.h"
 
 /**
@@ -51,7 +51,7 @@ Write a function that prints the alphabet, in lowercase, followed by a new line.
 <details>
 <summary>Show answer</summary>
 
-```bash
+```C
 #include "main.h"
 
 /**
@@ -84,7 +84,7 @@ Write a function that prints 10 times the alphabet, in lowercase, followed by a 
 <details>
 <summary>Show answer</summary>
 
-```bash
+```C
 #include "main.h"
 
 /**
@@ -124,7 +124,7 @@ FYI: The standard library provides a similar function: ```islower```. Run ```man
 <details>
 <summary>Show answer</summary>
 
-```bash
+```C
 #include "main.h"
 
 /**
@@ -159,7 +159,7 @@ FYI: The standard library provides a similar function: ```isalpha```. Run ```man
 <details>
 <summary>Show answer</summary>
 
-```bash
+```C
 #include "main.h"
 
 /**
@@ -193,7 +193,7 @@ Write a function that prints the sign of a number.
 <details>
 <summary>Show answer</summary>
 
-```bash
+```C
 #include "main.h"
 
 /**
@@ -237,7 +237,7 @@ FYI: The standard library provides a similar function: ```abs```. Run ```man abs
 <details>
 <summary>Show answer</summary>
 
-```bash
+```C
 #include "main.h"
 
 /**
@@ -269,7 +269,7 @@ Write a function that prints the last digit of a number.
 <details>
 <summary>Show answer</summary>
 
-```bash
+```C
 #include "main.h"
 
 /**
@@ -306,7 +306,7 @@ You can listen to [this soundtrack](https://www.youtube.com/watch?v=btAfXqgMkPs)
 <details>
 <summary>Show answer</summary>
 
-```bash
+```C
 #include "main.h"
 
 /**
@@ -346,7 +346,7 @@ Write a function that prints the 9 times table, starting with 0.
 <details>
 <summary>Show answer</summary>
 
-```bash
+```C
 #include "main.h"
 
 /**
@@ -393,7 +393,7 @@ Write a function that adds two integers and returns the result.
 <details>
 <summary>Show answer</summary>
 
-```bash
+```C
 #include "main.h"
 
 /**
@@ -427,7 +427,7 @@ Write a function that prints all natural numbers from n to 98, followed by a new
 <details>
 <summary>Show answer</summary>
 
-```bash
+```C
 #include "stdio.h"
 
 /**
