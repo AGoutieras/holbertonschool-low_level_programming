@@ -15,7 +15,7 @@ Write a function that creates a hash table.
 <details>
 <summary>Show answer</summary>
 
-```bash
+```C
 #include "hash_tables.h"
 
 /**
@@ -63,7 +63,7 @@ Write a hash function implementing the djb2 algorithm.
 <details>
 <summary>Show answer</summary>
 
-```bash
+```C
 /**
  * hash_djb2 - implementation of the djb2 algorithm
  * @str: string used to generate hash value
@@ -101,7 +101,7 @@ Write a function that gives you the index of a key.
 <details>
 <summary>Show answer</summary>
 
-```bash
+```C
 #include "hash_tables.h"
 
 /**
