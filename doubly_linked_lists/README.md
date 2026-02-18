@@ -13,7 +13,7 @@ Write a function that prints all the elements of a ```dlistint_t``` list.
 <details>
 <summary>Show answer</summary>
 
-```bash
+```C
 #include "lists.h"
 
 /**
@@ -49,7 +49,7 @@ Write a function that returns the number of elements in a linked ```dlistint_t``
 <details>
 <summary>Show answer</summary>
 
-```bash
+```C
 #include "lists.h"
 
 /**
@@ -86,7 +86,7 @@ Write a function that adds a new node at the beginning of a ```dlistint_t``` lis
 <details>
 <summary>Show answer</summary>
 
-```bash
+```C
 #include "lists.h"
 
 /**
@@ -132,7 +132,7 @@ Write a function that adds a new node at the end of a ```dlistint_t``` list.
 <details>
 <summary>Show answer</summary>
 
-```bash
+```C
 #include "lists.h"
 
 /**
@@ -188,7 +188,7 @@ Write a function that frees a ```dlistint_t``` list.
 <details>
 <summary>Show answer</summary>
 
-```bash
+```C
 #include "lists.h"
 
 /**
@@ -246,7 +246,7 @@ Write a function that returns the nth node of a ```dlistint_t``` linked list.
 <details>
 <summary>Show answer</summary>
 
-```bash
+```C
 #include "lists.h"
 
 /**
@@ -285,7 +285,7 @@ Write a function that returns the sum of all the data (n) of a ```dlistint_t``` 
 <details>
 <summary>Show answer</summary>
 
-```bash
+```C
 #include "lists.h"
 
 /**
@@ -328,7 +328,7 @@ Your files ```2-add_dnodeint.c``` and ```3-add_dnodeint_end.c``` will be compile
 <details>
 <summary>Show answer</summary>
 
-```bash
+```C
 #include "lists.h"
 
 /**
@@ -390,7 +390,7 @@ Write a function that deletes the node at index ```index``` of a ```dlistint_t``
 <details>
 <summary>Show answer</summary>
 
-```bash
+```C
 #include "lists.h"
 
 /**
